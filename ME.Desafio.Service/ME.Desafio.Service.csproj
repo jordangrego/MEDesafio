@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ME.Desafio.Database\ME.Desafio.Database.csproj" />
+    <ProjectReference Include="..\ME.Desafio.Model\ME.Desafio.Model.csproj" />
+    <ProjectReference Include="..\ME.Desafio.CrossCutting\ME.Desafio.CrossCutting.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

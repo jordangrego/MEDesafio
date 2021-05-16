@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ME.Desafio.Service\ME.Desafio.Service.csproj" />
+    <ProjectReference Include="..\ME.Desafio.Model\ME.Desafio.Model.csproj" />
+    <ProjectReference Include="..\ME.Desafio.CrossCutting\ME.Desafio.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
